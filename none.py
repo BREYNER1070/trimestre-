@@ -1,7 +1,7 @@
-def escalas(n):
+def staircase(n):
     for i in range(1,n+1):
         espacios = ' ' * (n-i)
         relleno = '#' * i
         total = espacios + relleno
         print(total)
-escalas(4)
+staircase(4)
